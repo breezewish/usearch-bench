@@ -1,0 +1,6 @@
+[submodule "contrib/highfive"]
+	path = contrib/highfive
+	url = https://github.com/BlueBrain/HighFive
+[submodule "contrib/usearch"]
+	path = contrib/usearch
+	url = https://github.com/unum-cloud/usearch
