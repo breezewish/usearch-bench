@@ -19,4 +19,5 @@ target_link_libraries(Main
     contrib::benchmark
     contrib::usearch
 )
+target_compile_options(Main PRIVATE -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer)
 target_compile_features(Main PRIVATE cxx_std_17)
